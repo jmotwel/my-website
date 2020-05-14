@@ -1,0 +1,14 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o src/css/ --recursive"
+  },
+  "author": "James Otwell",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
